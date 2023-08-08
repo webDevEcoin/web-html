@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    color: brown;
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 400px;
+
+}

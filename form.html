@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>From</title>
+</head>
+
+<body>
+
+    <form>
+        <!-- placeholder="Votre Nom" value="dkhqjk"  required  readonly-->
+        <label for="fname">Your FName</label>
+        <input type="text" id="fname"> <br>
+
+        <label for="lname">Your LName</label>
+        <input type="text" id="lname"> <br>
+
+        <input type="number" min="18" max="65" step="3">
+        <input type="range" min="18" max="65" step="3">
+
+        <hr>
+
+        <label for="">Lang</label> <br>
+        <input type="checkbox" name="langs"> Python
+        <input type="checkbox" name="langs"> PHP
+        <input type="checkbox" name="langs"> JAVA
+
+
+        <hr>
+
+        <label for="">Lang</label> <br>
+        <input type="radio" name="lange"> Python
+        <input type="radio" name="lange"> PHP
+        <input type="radio" name="lange"> JAVA
+
+
+        <input type="submit" value="Submit">
+        <input type="button" value="button">
+        <input type="reset" value="reset">
+
+        <button type="submit">GoogS</button>
+        <button type="button">GoogB</button>
+        <button type="reset">GoogR</button>
+        <br>
+        <label>Wilaya</label>
+        <select name="wilaya">
+            <optgroup label="Center">
+                <option value="16">Alger</option>
+            </optgroup>
+            <optgroup label="West">
+                <option value="9" selected>Blida</option>
+                <option value="31">Oran</option>
+            </optgroup>
+            <optgroup label="East">
+                <option value="15">Tiziouzo</option>
+                <option value="15">Bejaia</option>
+            </optgroup>
+
+        </select>
+        <br>
+        <label>Lang</label>
+        <select name="lang" multiple>
+            <option value="php">PHP</option>
+            <option value="kotlin">Kotlin</option>
+            <option value="rust">Rust</option>
+            <option value="java">JAVA</option>
+        </select>
+
+
+
+    </form>
+
+</body>
+
+</html>
