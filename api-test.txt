@@ -1,0 +1,5 @@
+if ($api) {
+   $store['ratings_count'] = \App\Store::searchStore('ratings',['provider'=>$store['id']], 'id','asc',1,'all')->count();
+  //  $data = \App\Store::searchStore('ratings',['provider'=>$store['id']], 'id','asc',1,'all');
+    //dd($data);
+ }
