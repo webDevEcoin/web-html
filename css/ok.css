@@ -1,9 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    outline: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: red;
+}
 
 header {
     width: 100%;
@@ -45,4 +49,36 @@ header {
     align-items: center;
     color: beige;
     flex-basis: 40%;
+}
+
+
+.cats {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cat {
+    flex-basis: 12%;
+    text-align: center;
+}
+
+.cats .cat .img {
+    background-color: #fff;
+    padding: 0;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cats .cat .img:hover {
+    background-color: green;
+}
+
+.img img {
+    width: 100%;
+    border-radius: 100%;
 }
