@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container header {
+    height: 70px;
+    background-color: red;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 15px;
+    padding-right: 2%;
+}
+
+
+
+.container footer {
+    height: 70px;
+    background-color: green;
+}
+
+
+
+.container section {
+    width: 100%;
+    min-height: calc(100% - 140px);
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 55px;
+}
+
+
+.container section .search {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container section input {
+    padding: 5px 15px;
+    width: 50%;
+    border-radius: 15px;
+    outline: none;
+}
