@@ -1,0 +1,40 @@
+:root {
+    font-size: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style: none;
+    padding: 7px 25px;
+}
+
+li {
+    color: blue;
+    font-size: 1.5rem;
+}
+
+
+li::after {
+    content: 'sara';
+    color: brown;
+    font-size: 4rem;
+}
+
+li::before {
+    font: var(--fa-font-solid);
+    content: "\f00c";
+    padding-right: 15px;
+    color: green;
+}
+
+li:hover::before {
+    position: relative;
+    left: 50%;
+    color: rgb(128, 49, 0);
+}
