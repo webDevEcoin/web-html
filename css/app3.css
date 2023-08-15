@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box {
+
+    height: 900px;
+    border: 2px solid red;
+    /* background-color: violet; */
+    background-image: url(../images/wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    /* opacity: 0.2; */
+
+
+    font-weight: bold;
+    color: rgb(3, 82, 150);
+
+    /* overflow: scroll; */
+}
