@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    perspective-origin: 600px;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color: aliceblue;
+    border: 2px solid yellow;
+    padding: 3px;
+    background-color: deeppink;
+
+    transform-origin: 15px 50px;
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+
+.box:hover {
+    transform: rotateX(80deg) rotateY(50deg) skewX(25deg);
+
+}
